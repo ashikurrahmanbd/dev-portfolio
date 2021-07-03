@@ -121,3 +121,15 @@ a.link-btn:hover{
         border-image: linear-gradient(blue,  cyan);
         border-image-slice: 1;
 }
+
+/* Footer Section css */
+footer{
+        margin-top: 150px;
+        box-shadow: 1px  2px 5px #000;
+        padding: 10px 0;
+}
+
+footer p.copyright-text{
+        text-align: center;
+
+}
