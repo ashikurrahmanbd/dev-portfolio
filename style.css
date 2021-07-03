@@ -6,6 +6,8 @@ body{
 *{
         box-sizing: border-box;
 }
+
+
 p.info-text{
         color: dimgray;
 }
@@ -70,6 +72,7 @@ a.link-btn:hover{
 .dream-big-content{
         display: flex;
         align-items: center;
+        vertical-align: middle;
 }
 
 .dream-big-content .image.column-half{
@@ -82,4 +85,39 @@ a.link-btn:hover{
 }
 .dream-big-content .information.column-half{
         width:50%;
+}
+
+/* Expereince Section CSS */
+.experience-section{
+        margin:75px 0;
+        background-image: url(images/exp-bg2.png);
+        background-repeat: no-repeat;
+        background-position: left 155px;
+}
+
+.experience-section h1{
+        margin-bottom: 60px;
+}
+.experience-content{
+        display: flex;
+}
+
+.experience-content .full-stack-dev.column-half{
+        width: 50%;
+        margin-right:3%;
+        padding: 35px;
+        box-shadow: 2px 2px 13px #000;
+        border-left: 7px solid;
+        border-image: linear-gradient(orange,  tomato);
+        border-image-slice: 1;
+}
+
+.experience-content .baby-web-dev.column-half{
+        width: 50%;
+        margin-left:3%;
+        padding: 35px;
+        box-shadow: 2px 2px 13px #000;
+        border-left: 7px solid;
+        border-image: linear-gradient(blue,  cyan);
+        border-image-slice: 1;
 }
